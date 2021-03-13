@@ -7,7 +7,7 @@ const config = {
 	]
 }
 
-var ip = "ws://localhost:3000"
+var ip = "ws://antennatest.herokuapp.com"
 const socket = io(ip)
 const video = document.querySelector("video");
 
