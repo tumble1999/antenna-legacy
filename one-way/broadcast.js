@@ -7,7 +7,7 @@ const config = {
 	]
 }
 
-var ip = "ws://antennatest.herokuapp.com"
+var ip = "antennatest.herokuapp.com"
 const socket = io(ip)
 const video = document.querySelector("video");
 
